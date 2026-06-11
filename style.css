@@ -62,6 +62,7 @@ body {
   .botoes {
     display: flex;
   }
+
   .botao:last-child {
     border-radius: 0 40px 0 0;
   }
@@ -75,6 +76,9 @@ body {
 }
 .abas-textos {
   background-color: var(--texto-fundo);
+}
+.abas-textos {
+  background-color: var(--texto-fundo);
   padding: 40px;
   border-radius: 0 0 40px 40px;
 }
@@ -85,6 +89,7 @@ body {
 .aba-conteudo.ativo {
   display: block;
 }
+
 .aba-conteudo-titulo-principal {
   font-size: 28px;
   text-align: center;
@@ -93,4 +98,11 @@ body {
   text-align: center;
   color: var(--verde);
   text-transform: uppercase;
+}
+.contador {
+  font-size: 20px;
+  text-align: center;
+}
+.aba-conteudo {
+  display: none;
 }
